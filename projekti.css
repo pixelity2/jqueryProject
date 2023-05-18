@@ -44,7 +44,6 @@ footer {
 }
 .footer{
   text-align: center;
-  margin: 30px;
   color: antiquewhite;
 }
 .footers{
@@ -55,10 +54,10 @@ footer {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  width: 1920px;
+  width: 1650px;
 }
 .footer {
-  width: 350px;
+  width: 300px;
   padding: 20px;
   text-align: center;
 }
@@ -98,23 +97,32 @@ font-size: 16px;
 .slideshow-wrapper {
   display: flex;
   justify-content: center;
+  background-size: cover;
 }
 
 .slideshow-container {
   position: relative;
   max-width: 800px;
+  background-size: cover;
 }
 
 .slide {
   display: none;
 }
 img{
-  width: 900px;
+  background-size: cover;
+  width: 800px;
 }
 .slide-caption{
-  font-size: 35px;
+  font-size: 22px;
   float: right;
 }
 h1{
   text-align: center;
+}
+label{
+  color: transparent;
+}
+label:hover{
+  color: red;
 }

@@ -12,7 +12,7 @@ $(document).ready(function() {
     }
     
     slides.eq(slideIndex - 1).fadeIn(1000);
-    setTimeout(showSlides, 2000); // Change slide every 2 seconds (adjust as needed)
+    setTimeout(showSlides, 3000); // Change slide every 2 seconds (adjust as needed)
   }
 });
 
