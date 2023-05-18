@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Projekti ne jQuery</title>
+        <link rel="stylesheet" type="text/css" href="projekti.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">  
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>     
+    </head>
+<body>
+    <div class="split">
+        <div class="left">
+            <a href="https://www.facebook.com/pixelity2/"><i id="i1" class="fa fa-facebook"></i></a>
+            <a href="https://twitter.com/pixelity2_"><i id="i2" class="fa fa-twitter"></i></a>
+            <a href="https://www.instagram.com/pixelity2/"><i id="i3" class="fa fa-instagram"></i></a>
+        </div>
+        <div class="right">
+            <input id="search" type="search" placeholder="Search in Our Website...">
+            <input id="butoni" type="submit" value="Search">
+        </div>
+    </div>
+    <h1>Today's images</h1>
+    <div class="slideshow-wrapper">
+        <div class="slideshow-container">
+          <div class="slide">
+            <img src="img/img1.jpg" alt="Slide 1">
+            <div class="slide-caption">Yellow flower - Image by <a href="https://pixabay.com/users/armennano-9097212/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=4828582">armennano</a> from <a href="https://pixabay.com//?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=4828582">Pixabay</a></div>
+          </div>
+          <div class="slide">
+            <img src="img/img2.jpg" alt="Slide 2">
+            <div class="slide-caption">Sunset - Image by <a href="https://pixabay.com/users/matthewgul-12143353/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=4114991">Matas Gul</a> from <a href="https://pixabay.com//?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=4114991">Pixabay</a></div>
+          </div>
+          <div class="slide">
+            <img src="img/img3.jpg" alt="Slide 3">
+            <div class="slide-caption">Books - Image by <a href="https://pixabay.com/users/jennyfriedrichs-435099/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=4827614">Jenny Friedrichs</a> from <a href="https://pixabay.com//?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=4827614">Pixabay</a></div>
+          </div>
+        </div>
+      </div>
+<br><br>
+<div class="footers">
+<div class="footer">
+    <h3>Contact us:</h3>
+    <h4>If you would like to contact us: </h4>
+    <h4>E-mail: <span>tzgjim@gmail.com</span></h4>
+    <h4>Phone number: <span>+383 45 722 814</span></h4>   
+</div>
+
+<div class="footer">
+    <h3>Find us at: </h3>
+    <h4><a href="https://github.com/pixelity2">GitHub</a></h4>
+    <h4><a href="https://www.linkedin.com/in/zgjim-topojani/">LinkedIn</a></h4>
+    <h4><a href="https://youtube.com/@pixelity2">YouTube</a></h4>    
+</div>
+<div class="footer">
+    <h3>Quick links: </h3>  
+    <h4><a href="https://pixelity2.netlify.app/">Our Website</a></h4>
+    <h4><a href="https://pixelity2.netlify.app/">LubroWeb</a></h4>
+    <h4><a href="https://rudieta.netlify.app/">Rudieta</a></h4>
+</div>
+<div class="footer" id="newsletter">
+    <h3>E-mail Newsletter: </h3>    
+    <form class="newsletter-form" id="my-form" action="https://formspree.io/f/xyyavago" method="POST">
+        <input type="text" name="name" placeholder="Name"/><br>
+        <input type="email" name="email" placeholder="E-mail"/><br>
+        <button id="my-form-button">Submit</button>
+        <p id="my-form-status"></p>
+      </form>
+</div>
+<hr><hr>
+<footer>
+    <p>&copy; 2023 Zgjim Topojani as part of Pixelity2 Inc.</p>
+  </footer>
+</div>
+
+<script src="slideshow.js"></script>   
+</body>
+</html>
