@@ -1,0 +1,192 @@
+.split{
+    width: 100%;
+    height: 100px;
+    padding-top: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.left{
+    width: 50%;
+    float: left;
+}
+.right{
+    width: 50%;
+    float: right;
+}
+div{
+    display: inline-block;
+}
+/*Pjesa e dyte per input*/
+#search{
+    margin-left: 430px;
+    height: 35px;
+}
+#butoni{
+    height: 35px;
+    background-color: blueviolet;
+    color: white;
+    font-weight: bolder;
+    border-radius: 30px;
+}
+
+
+/* Per footer*/
+footer {
+  padding: 20px;
+  text-align: center;
+  color: antiquewhite;
+}
+#i1, #i2, #i3{
+  font-size: 35px;
+  color: blue;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+.footer{
+  text-align: center;
+  color: antiquewhite;
+}
+.footers{
+  background-color: rgb(72, 100, 152);
+}
+.footers {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 1850px;
+}
+.footer {
+  width: 350px;
+  padding: 20px;
+  text-align: center;
+}
+span{
+  color: blue;
+  font-size: 22 px;
+}
+a{
+  text-decoration: none;
+  color: blueviolet;
+}
+
+
+/*Per newsletter*/
+.newsletter-form input[type="text"] {
+flex-grow: 1;
+padding: 10px;
+font-size: 16px;
+}
+.newsletter-form input[type="email"] {
+flex-grow: 1;
+padding: 10px;
+font-size: 16px;
+}
+.newsletter-form textarea{
+  flex-grow: 1;
+  padding: 10px;
+  font-size: 16px;
+  }
+
+#my-form-button{
+padding: 10px 20px;
+background-color: #333;
+color: #fff;
+border: none;
+cursor: pointer;
+font-size: 16px;
+}
+
+
+/*Per slideshow*/
+.slideshow-wrapper {
+  display: flex;
+  justify-content: center;
+  background-size: cover;
+}
+
+.slideshow-container {
+  position: relative;
+  max-width: 800px;
+  background-size: cover;
+}
+
+.slide {
+  display: none;
+  float: left;
+  margin-top: 20px;
+}
+img{
+  width: 800px;
+  float: left;
+  border: 5px solid rgb(0, 255, 106);
+}
+.slide-caption{
+  font-size: 22px;
+  float: right;
+}
+h1{
+  text-align: center;
+}
+label:hover{
+  color: red;
+}
+/*Per navbar */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  background-color: blue;
+  height: 80px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar ul li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.navbar ul li a {
+  color: white;
+  text-decoration: none;
+}
+.navbar ul li a:hover {
+  background-color: white;
+  color: blue;
+}
+/* mission */
+#mission {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  margin: 20px;
+}
+
+#mission div {
+  width: 25%;
+  text-align: center;
+  flex-grow: 1;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+}
+
+#mission img {
+  width: 100%;
+  height: auto;
+}
+
+#mission p {
+  font-size: 18px;
+}
